@@ -24,8 +24,6 @@ var QuickNoteDefaultOption = 'REJECT';
 
 var QuickNotes = new Array('REJECT', 'REJECT - HELD IN THE 5 COLLEGES', 'DN - DEMONSTRATED NEED');
 
-var gmStyleSheet = 'http://www.cogulus.com/assets/styles/gobi.css';
-
 //var gmSearchPattern = /^(.+:<\/span>)(<span>(.+?)<\/span>)(.*)$/im;
 var gmSearchPattern = /^(.+:<\/span>)(<span[^>]*>(.+?)<\/span>)(.*)$/im;
 // 1 - start, 2 - replace, 3 - search term, 4 - end
@@ -33,17 +31,6 @@ var gmSearchPattern = /^(.+:<\/span>)(<span[^>]*>(.+?)<\/span>)(.*)$/im;
 // -- Links and Highlighting -----------------------------------------------------------
 
 // Add our own style sheet
-/*
-if(document.createStyleSheet) {
-	document.createStyleSheet(gmStyleSheet);
-} else {
-	var newSS=document.createElement('link');
-	newSS.rel='stylesheet';
-	newSS.href='data:text/css,'+escape("@import url(' " + gmStyleSheet + " ');");
-	document.getElementsByTagName("head")[0].appendChild(newSS);
-}
-*/
-
 var css = 'a.catalogLink { color:blue; text-decoration:none; font-size:10px; } ' +
 'a.catalogLink:visited { color:purple; } ' +
 '.QuickNotes { padding:5px; background-color:#fff; font-size:12px; line-height:1.4em; font-family:Verdana, Arial, Helvetica, sans-serif; } ' +
