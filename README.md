@@ -20,7 +20,7 @@ https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
 https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
 
 2: Add the Gobi Enhancer Script to your browser by going to 
-https://github.com/oelker/gobienhancer/blob/master/gobi_enhancer.user.js 
+https://github.com/nnnicck/Gobi-Enhancer/blob/master/gobi_enhancer.user.js
 and clicking on the "Raw" button, and downloading the file.
 
 
